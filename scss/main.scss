@@ -1,0 +1,24 @@
+@import "./generic/reset";
+@import "./settings/fonts";
+@import "./settings/mixins";
+@import "./settings/variables";
+@import "./elements/header";
+@import "./elements/stats";
+@import "./elements/benefits";
+@import "./elements/pricing";
+@import "./elements/contact";
+@import "./elements/footer";
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1352px;
+}
+
+body {
+  font-family: "Raleway", "Open Sans", sans-serif;
+  font-size: 16px;
+}

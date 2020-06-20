@@ -1,0 +1,128 @@
+/* Pricing section */
+
+.pricing {
+  margin: 100px 0;
+}
+
+.pricing .container {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing__container {
+  margin: 0 auto;
+  max-width: 1266px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  width: 372px;
+  border-radius: 18px;
+}
+
+.pricing__title {
+  font-size: 1.25em;
+  font-family: $Raleway-Font;
+  font-weight: $Raleway-bold;
+  margin: 35px 0;
+}
+
+.pricing__price {
+  font-family: $Open-Sans-Font;
+  font-weight: $Open-Sans-light;
+  font-size: 2.875em;
+}
+
+.pricing__offer {
+  font-size: 0.75em;
+  font-family: $Raleway-Font;
+  font-weight: $Raleway-bold;
+  margin-top: 20px;
+}
+
+.pricing__list {
+  font-family: $Open-Sans-Font;
+  font-weight: $Open-Sans-regular;
+  font-size: 0.875em;
+  line-height: 2.5625em;
+  margin-top: 60px;
+}
+
+.pricing__item::before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  margin-right: 10px;
+  background-image: url("./images/Ckechmark-1.svg");
+}
+
+.pricing__item--x::before {
+  background-image: url("./images/Close.svg");
+}
+
+.pricing__btn {
+  padding: 16px 57px;
+  border-radius: 23px;
+  position: relative;
+  bottom: -25px;
+}
+
+.pricing__btn a {
+  color: $color-white;
+  font-family: $Open-Sans-Font;
+  font-weight: $Open-Sans-bold;
+  font-size: 0.8125em;
+  text-decoration: none;
+}
+
+.pricing__container {
+  $color-basic: $color-redish;
+  $color-professional: $color-blue;
+  $color-premium: $color-green;
+}
+
+.pricing__box--basic .pricing__price--basic {
+  margin-bottom: 30px;
+}
+
+.pricing__box--basic {
+  border: 1px solid $color-redish;
+}
+
+.pricing__box--professional {
+  border: 1px solid $color-blue;
+  box-shadow: 5px 1px 27px $color-blue-shadow;
+  width: 400px;
+}
+
+.pricing__box--premium {
+  border: 1px solid $color-green;
+}
+
+.pricing__price--basic {
+  color: $color-redish;
+}
+.pricing__price--professional {
+  color: $color-blue;
+}
+.pricing__price--premium {
+  color: $color-green;
+}
+
+.pricing__btn--basic {
+  background-color: $color-redish;
+}
+.pricing__btn--professional {
+  background-color: $color-blue;
+}
+.pricing__btn--premium {
+  background-color: $color-green;
+}
