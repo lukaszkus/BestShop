@@ -599,3 +599,40 @@ body {
     border-radius: 40px;
     box-shadow: 3px 10px 14px var(--color-blue-shadow);
 }
+
+
+.footer {
+    box-shadow: 0 -5px 40px #00000029;
+    padding: 20px 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    font-family: var(--Relaway-Font);
+    font-size: 2em;
+    font-weight: var(--Relaway-light);
+    color: var(--color-blue);
+    text-decoration: none;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__copy {
+    font-size: 0.6875rem;
+    line-height: 1.5rem;
+    color: var(--color-grey);
+    margin-top: 6px;
+}
+
+.footer__icons a:first-of-type {
+    margin-right: 25px;
+}
